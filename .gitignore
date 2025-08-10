@@ -1,0 +1,21 @@
+# Composer dependencies
+/vendor/
+
+# Laravel-specific
+.env
+.env.*
+/storage/*.key
+
+# IDE/editor settings
+.idea/
+/.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node dependencies (if you have JS build for TypeScript outputs)
+node_modules/
+dist/

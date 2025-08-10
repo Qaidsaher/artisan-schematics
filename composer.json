@@ -1,0 +1,50 @@
+{
+    "name": "saher/artisan-schematics",
+    "description": "Generate model definitions for any language (TypeScript, Dart, Kotlin, etc.) directly from your Laravel backend.",
+    "type": "laravel-package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Saher Qaid",
+            "email": "saherqaid2020@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "illuminate/contracts": "^9.0|^10.0",
+        "illuminate/support": "^9.0|^10.0",
+        "illuminate/console": "^9.0|^10.0",
+        "illuminate/database": "^9.0|^10.0",
+        "symfony/finder": "^6.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.22",
+        "pestphp/pest": "^2.36",
+        "pestphp/pest-plugin-laravel": "^2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Saher\\ArtisanSchematics\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Saher\\ArtisanSchematics\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Saher\\ArtisanSchematics\\ArtisanSchematicsServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
