@@ -2,6 +2,8 @@
 
 [![Tests](https://img.shields.io/badge/tests-passing-brightgreen)](./vendor/bin/pest)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
+[![Packagist](https://img.shields.io/packagist/v/saher/artisan-schematics)](https://packagist.org/packages/saher/artisan-schematics)
+[![GitHub Repo](https://img.shields.io/badge/github-repo-blue?logo=github)](https://github.com/Qaidsaher/artisan-schematics)
 
 **Artisan Schematics** is the most powerful, extensible, and professional Laravel package for exporting your Eloquent models and PHP enums to TypeScript, Dart, Kotlin, and Swift. It is designed for teams and individuals who want seamless, type-safe, cross-platform development.
 
@@ -172,3 +174,10 @@ Pull requests, issues, and feature requests are welcome! Help make Artisan Schem
 ## 📄 License
 
 MIT
+
+---
+
+## 📦 Releases & Tags
+
+- [View latest release and all tags on GitHub](https://github.com/Qaidsaher/artisan-schematics/releases)
+- [View on Packagist](https://packagist.org/packages/saher/artisan-schematics)
